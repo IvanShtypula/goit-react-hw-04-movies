@@ -1,0 +1,46 @@
+.movie-description{
+  display: flex;
+  position: relative;
+}
+
+.movie-description::after{
+  position: absolute;
+  bottom: 10px;
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 2px;
+  background-color: black; 
+}
+
+.movie-description_img{
+  display: block;
+  height: 100%;
+  padding: 20px;
+}
+
+.movie-description_overview{
+  text-align: start;
+}
+
+.movie-description_overview p{
+  font-size: 14px;
+}
+
+.genres-list{
+  list-style: none;
+  display: flex; 
+  padding: 0;
+}
+
+.genres-list li:not(:last-child){
+  margin-right: 10px;
+}
+
+.sub-menu{
+  list-style: none;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}

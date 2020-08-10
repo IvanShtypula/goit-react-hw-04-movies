@@ -1,0 +1,16 @@
+.link{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 20px;
+}
+
+.link-active{
+  color: rgb(16, 51, 148);
+  text-shadow: 0px 0px 4px rgb(255, 255, 254);
+}
+
+.header{
+  margin-bottom: 20px;
+}
